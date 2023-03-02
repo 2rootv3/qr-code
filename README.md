@@ -6,7 +6,7 @@ Install python and pip, ⇓
   pkg install python3
 ```
 ```bash
-  pkg install python3-pip
+  pkg install git
 ```
 install the tool ⇓
 
