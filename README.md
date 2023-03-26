@@ -11,7 +11,7 @@ Install python and pip, ⇓
 install the tool ⇓
 
 ```bash
-  https://github.com/Halal-AsHacker/qr-code.git
+  git clone https://github.com/2rootv3/qr-code.git
 ```
 Now ⇓
 
