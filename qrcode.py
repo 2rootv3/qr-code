@@ -1,6 +1,7 @@
+from termcolor import colored
 import qrcode as q
 import os
-banner='''
+banner=colored('''
  ▄▄▄▄▄▄▄ ▄▄  ▄ ▄▄▄▄▄▄▄ 
  █ ▄▄▄ █ ▄▀▄ █ █ ▄▄▄ █ 
  █ ███ █ █▄▄█  █ ███ █ 
@@ -13,14 +14,14 @@ banner='''
  █ ███ █ ██▄▄██ ▄ ▄▄▀  
  █▄▄▄▄▄█ █▄▄ ▀██▄  ▄ ▀ 
                        
-                       '''
+                       ''','green')
 imageformet=".png"
 os.system('clear')
 print(banner)
-print('Enter your ulr or msg ')
-usr=input("=>")
-print("Enter yor save file name")
-usr2=input("=>")
+print(colored('Enter your ulr or msg ','yellow'))
+usr=input(colored("=>",'red'))
+print(colored("Enter yor save file name",'yellow'))
+usr2=input(colored("=>",'red'))
 qur = q.make(usr)
 qur.save(usr2+imageformet)
-print("The qr code was saved in png format")
+print(colored("The qr code was saved in png format",'yellow'))
