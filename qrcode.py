@@ -1,4 +1,14 @@
-from termcolor import colored
+try:
+    from termcolor import colored
+except ModuleNotFoundError:
+    import os
+    os.system('pip install termcolor')
+    from termcolor import colored
+try:
+    import qrcode
+except ModuleNotFoundError:
+    import os
+    os.system('pip install qrcode')
 import qrcode as q
 import os
 banner=colored('''
