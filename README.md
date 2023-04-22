@@ -32,5 +32,5 @@ Install the all requirement ⇓
 At last ,Now  you can run the tool in 2 way ⇓
 
 ```bash
-  python qrcode.py
+  python make.py
 ```
